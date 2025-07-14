@@ -9,6 +9,13 @@ public class LoadLevelAction : Action
 
 	public const string SAME_SCENE = "0";
 
+	private GameObject dataObject;
+
+	public void LoadLevel()
+    {
+		ExecuteAction(dataObject);
+    }
+
 	//Loads a new Unity scene, or reload the current one (it means all objects are reset)
 	public override bool ExecuteAction(GameObject dataObject)
 	{
