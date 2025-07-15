@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -172,10 +172,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_0
       rect:
         serializedVersion: 2
-        x: 735
-        y: 6783
-        width: 546
-        height: 674
+        x: 0
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_1
       rect:
         serializedVersion: 2
-        x: 2783
-        y: 6783
-        width: 546
-        height: 738
+        x: 2048
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_2
       rect:
         serializedVersion: 2
-        x: 4831
-        y: 6783
-        width: 546
-        height: 706
+        x: 4096
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_3
       rect:
         serializedVersion: 2
-        x: 6911
-        y: 6783
-        width: 546
-        height: 674
+        x: 6144
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_4
       rect:
         serializedVersion: 2
-        x: 8959
-        y: 6783
-        width: 546
-        height: 738
+        x: 8192
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_5
       rect:
         serializedVersion: 2
-        x: 11007
-        y: 6783
-        width: 546
-        height: 706
+        x: 10240
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_6
       rect:
         serializedVersion: 2
-        x: 735
-        y: 4735
-        width: 546
-        height: 738
+        x: 0
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_7
       rect:
         serializedVersion: 2
-        x: 2783
-        y: 4735
-        width: 514
-        height: 802
+        x: 2048
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_8
       rect:
         serializedVersion: 2
-        x: 4831
-        y: 4735
-        width: 546
-        height: 770
+        x: 4096
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_9
       rect:
         serializedVersion: 2
-        x: 6879
-        y: 4735
-        width: 546
-        height: 738
+        x: 6144
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_10
       rect:
         serializedVersion: 2
-        x: 8927
-        y: 4735
-        width: 546
-        height: 770
+        x: 8192
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_11
       rect:
         serializedVersion: 2
-        x: 10975
-        y: 4735
-        width: 546
-        height: 802
+        x: 10240
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_12
       rect:
         serializedVersion: 2
-        x: 767
-        y: 2687
-        width: 546
-        height: 738
+        x: 0
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_13
       rect:
         serializedVersion: 2
-        x: 2847
-        y: 2687
-        width: 514
-        height: 802
+        x: 2048
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_14
       rect:
         serializedVersion: 2
-        x: 4863
-        y: 2687
-        width: 546
-        height: 770
+        x: 4096
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_15
       rect:
         serializedVersion: 2
-        x: 6911
-        y: 2687
-        width: 546
-        height: 738
+        x: 6144
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_16
       rect:
         serializedVersion: 2
-        x: 8959
-        y: 2687
-        width: 546
-        height: 770
+        x: 8192
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_17
       rect:
         serializedVersion: 2
-        x: 11007
-        y: 2687
-        width: 546
-        height: 802
+        x: 10240
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_18
       rect:
         serializedVersion: 2
-        x: 735
-        y: 639
-        width: 514
-        height: 706
+        x: 0
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_19
       rect:
         serializedVersion: 2
-        x: 2815
-        y: 639
-        width: 482
-        height: 770
+        x: 2048
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_20
       rect:
         serializedVersion: 2
-        x: 4831
-        y: 639
-        width: 514
-        height: 738
+        x: 4096
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_21
       rect:
         serializedVersion: 2
-        x: 6911
-        y: 639
-        width: 514
-        height: 706
+        x: 6144
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_22
       rect:
         serializedVersion: 2
-        x: 8959
-        y: 639
-        width: 514
-        height: 770
+        x: 8192
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: Yina Walk Cycle (without layers)_23
       rect:
         serializedVersion: 2
-        x: 11007
-        y: 639
-        width: 514
-        height: 738
+        x: 10240
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,7 +700,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4d8956f18ed926a449d9a149b83aa8da
     internalID: 0
     vertices: []
     indices: 
