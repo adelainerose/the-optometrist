@@ -151,7 +151,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inkJSON: {fileID: 4900000, guid: 3181d6bb889fb2d4a9b238108ca3ca05, type: 3}
-  triggerOnStart: 0
 --- !u!212 &71842359
 SpriteRenderer:
   m_ObjectHideFlags: 0
