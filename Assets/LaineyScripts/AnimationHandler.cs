@@ -12,16 +12,11 @@ public class AnimationHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool MovingLeft = Input.GetKey(KeyCode.LeftArrow);
-        bool MovingRight = Input.GetKey(KeyCode.RightArrow);
-        bool MovingUp = Input.GetKey(KeyCode.UpArrow);
-        bool MovingDown = Input.GetKey(KeyCode.DownArrow);
-        bool MovingAll;
-
-        if (MovingLeft == false && MovingRight == false && MovingUp == false && MovingDown == false)
-            MovingAll = false;
-        else
-            MovingAll = true;
+        bool MovingLeft = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
+        bool MovingRight = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
+        bool MovingUp = Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W);
+        bool MovingDown = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S);
+        bool MovingAll = MovingLeft || MovingRight || MovingUp || MovingDown;
 
         animator.SetBool("MovingLeft", MovingLeft);
         animator.SetBool("MovingRight", MovingRight);
