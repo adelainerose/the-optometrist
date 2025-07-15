@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b238de04c5bde46498781f304f091ffc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6817642452781270922
+    second: Yinh Idle (without layers)_0
+  - first:
+      213: 530057073155919265
+    second: Yinh Idle (without layers)_1
+  - first:
+      213: 376993286446180306
+    second: Yinh Idle (without layers)_2
+  - first:
+      213: 1961416461434896642
+    second: Yinh Idle (without layers)_3
+  - first:
+      213: 7455368915448823218
+    second: Yinh Idle (without layers)_4
+  - first:
+      213: 9222064262869427055
+    second: Yinh Idle (without layers)_5
+  - first:
+      213: 5153392675950015193
+    second: Yinh Idle (without layers)_6
+  - first:
+      213: -1442034971058534902
+    second: Yinh Idle (without layers)_7
+  - first:
+      213: 4428835872757444089
+    second: Yinh Idle (without layers)_8
+  - first:
+      213: 6016183746039087806
+    second: Yinh Idle (without layers)_9
+  - first:
+      213: -5821311918572436952
+    second: Yinh Idle (without layers)_10
+  - first:
+      213: 4448713395164057438
+    second: Yinh Idle (without layers)_11
+  - first:
+      213: 5651766332204891680
+    second: Yinh Idle (without layers)_12
+  - first:
+      213: -807598679739683793
+    second: Yinh Idle (without layers)_13
+  - first:
+      213: -4901275345211740632
+    second: Yinh Idle (without layers)_14
+  - first:
+      213: 3527976871784627306
+    second: Yinh Idle (without layers)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_0
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 6783
+        width: 546
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67879548f4ed261a0800000000000000
+      internalID: -6817642452781270922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_1
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 6783
+        width: 546
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad442489142b5700800000000000000
+      internalID: 530057073155919265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_2
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 6783
+        width: 546
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7e45985695b3500800000000000000
+      internalID: 376993286446180306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_3
+      rect:
+        serializedVersion: 2
+        x: 6879
+        y: 6783
+        width: 546
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2014e6031e9583b10800000000000000
+      internalID: 1961416461434896642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_4
+      rect:
+        serializedVersion: 2
+        x: 8927
+        y: 6783
+        width: 546
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdf0d2478ac67760800000000000000
+      internalID: 7455368915448823218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_5
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 4735
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f632824269a5bff70800000000000000
+      internalID: 9222064262869427055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_6
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 4735
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2b91eb557848740800000000000000
+      internalID: 5153392675950015193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_7
+      rect:
+        serializedVersion: 2
+        x: 4799
+        y: 4735
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a068d5485dcdcfbe0800000000000000
+      internalID: -1442034971058534902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_8
+      rect:
+        serializedVersion: 2
+        x: 6847
+        y: 4735
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fde634e2c2667d30800000000000000
+      internalID: 4428835872757444089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_9
+      rect:
+        serializedVersion: 2
+        x: 8895
+        y: 4735
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2832eed37cd7350800000000000000
+      internalID: 6016183746039087806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_10
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 2687
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8220eb617ab863fa0800000000000000
+      internalID: -5821311918572436952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_11
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 2687
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f864a33410dbd30800000000000000
+      internalID: 4448713395164057438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_12
+      rect:
+        serializedVersion: 2
+        x: 4895
+        y: 2687
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02eb598e88b1f6e40800000000000000
+      internalID: 5651766332204891680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_13
+      rect:
+        serializedVersion: 2
+        x: 6943
+        y: 2687
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2caa059745dac4f0800000000000000
+      internalID: -807598679739683793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_14
+      rect:
+        serializedVersion: 2
+        x: 8991
+        y: 2687
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e2646aa0c2bfbb0800000000000000
+      internalID: -4901275345211740632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yinh Idle (without layers)_15
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 639
+        width: 514
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c348ad544e5f030800000000000000
+      internalID: 3527976871784627306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Yinh Idle (without layers)_0: -6817642452781270922
+      Yinh Idle (without layers)_1: 530057073155919265
+      Yinh Idle (without layers)_10: -5821311918572436952
+      Yinh Idle (without layers)_11: 4448713395164057438
+      Yinh Idle (without layers)_12: 5651766332204891680
+      Yinh Idle (without layers)_13: -807598679739683793
+      Yinh Idle (without layers)_14: -4901275345211740632
+      Yinh Idle (without layers)_15: 3527976871784627306
+      Yinh Idle (without layers)_2: 376993286446180306
+      Yinh Idle (without layers)_3: 1961416461434896642
+      Yinh Idle (without layers)_4: 7455368915448823218
+      Yinh Idle (without layers)_5: 9222064262869427055
+      Yinh Idle (without layers)_6: 5153392675950015193
+      Yinh Idle (without layers)_7: -1442034971058534902
+      Yinh Idle (without layers)_8: 4428835872757444089
+      Yinh Idle (without layers)_9: 6016183746039087806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
