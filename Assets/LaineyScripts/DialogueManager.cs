@@ -58,7 +58,7 @@ public class DialogueManager : MonoBehaviour
         {
             return;
         }
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("e"))
         {
             ContinueStory();
         }

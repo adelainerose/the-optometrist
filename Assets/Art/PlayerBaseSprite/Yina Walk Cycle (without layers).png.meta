@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 59882193ac8e4b9449788f55074497db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8777968272839222149
+    second: Yina Walk Cycle (without layers)_0
+  - first:
+      213: 5380106709641705331
+    second: Yina Walk Cycle (without layers)_1
+  - first:
+      213: 2766908517295094855
+    second: Yina Walk Cycle (without layers)_2
+  - first:
+      213: -531624286776249800
+    second: Yina Walk Cycle (without layers)_3
+  - first:
+      213: 4926952867200941710
+    second: Yina Walk Cycle (without layers)_4
+  - first:
+      213: -1035057652124861076
+    second: Yina Walk Cycle (without layers)_5
+  - first:
+      213: 8459835149127001310
+    second: Yina Walk Cycle (without layers)_6
+  - first:
+      213: 9216185963079480852
+    second: Yina Walk Cycle (without layers)_7
+  - first:
+      213: -8228980163971442930
+    second: Yina Walk Cycle (without layers)_8
+  - first:
+      213: -3994746795643196761
+    second: Yina Walk Cycle (without layers)_9
+  - first:
+      213: 7875989910401580364
+    second: Yina Walk Cycle (without layers)_10
+  - first:
+      213: 7040955162225512341
+    second: Yina Walk Cycle (without layers)_11
+  - first:
+      213: 6951869851859084883
+    second: Yina Walk Cycle (without layers)_12
+  - first:
+      213: 8610750728365480241
+    second: Yina Walk Cycle (without layers)_13
+  - first:
+      213: 7511428034363734067
+    second: Yina Walk Cycle (without layers)_14
+  - first:
+      213: -7378205164243956605
+    second: Yina Walk Cycle (without layers)_15
+  - first:
+      213: 8667882398996288576
+    second: Yina Walk Cycle (without layers)_16
+  - first:
+      213: 6646803069898172482
+    second: Yina Walk Cycle (without layers)_17
+  - first:
+      213: -2081996111628146445
+    second: Yina Walk Cycle (without layers)_18
+  - first:
+      213: 192098496043438334
+    second: Yina Walk Cycle (without layers)_19
+  - first:
+      213: 5732549418747889061
+    second: Yina Walk Cycle (without layers)_20
+  - first:
+      213: -1805568428496169726
+    second: Yina Walk Cycle (without layers)_21
+  - first:
+      213: 4583966171234584069
+    second: Yina Walk Cycle (without layers)_22
+  - first:
+      213: -139996799455727430
+    second: Yina Walk Cycle (without layers)_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_0
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 6783
+        width: 546
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cd4cf0d546e2680800000000000000
+      internalID: -8777968272839222149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_1
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 6783
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377b3e12c8af9aa40800000000000000
+      internalID: 5380106709641705331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_2
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 6783
+        width: 546
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c706303a8066620800000000000000
+      internalID: 2766908517295094855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_3
+      rect:
+        serializedVersion: 2
+        x: 6911
+        y: 6783
+        width: 546
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8323bb0278a4f98f0800000000000000
+      internalID: -531624286776249800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_4
+      rect:
+        serializedVersion: 2
+        x: 8959
+        y: 6783
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8eba92578d006440800000000000000
+      internalID: 4926952867200941710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_5
+      rect:
+        serializedVersion: 2
+        x: 11007
+        y: 6783
+        width: 546
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d3c03ac8cb2a1f0800000000000000
+      internalID: -1035057652124861076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_6
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 4735
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4241afe3f576570800000000000000
+      internalID: 8459835149127001310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_7
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 4735
+        width: 514
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4163b41dd4876ef70800000000000000
+      internalID: 9216185963079480852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_8
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 4735
+        width: 546
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e071fbec32acccd80800000000000000
+      internalID: -8228980163971442930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_9
+      rect:
+        serializedVersion: 2
+        x: 6879
+        y: 4735
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaae0654fecf88c0800000000000000
+      internalID: -3994746795643196761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_10
+      rect:
+        serializedVersion: 2
+        x: 8927
+        y: 4735
+        width: 546
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dfb0048132d4d60800000000000000
+      internalID: 7875989910401580364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_11
+      rect:
+        serializedVersion: 2
+        x: 10975
+        y: 4735
+        width: 546
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f87eb5a6f76b160800000000000000
+      internalID: 7040955162225512341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_12
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2687
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356eec43cc00a7060800000000000000
+      internalID: 6951869851859084883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_13
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 2687
+        width: 514
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13919ad6a288f7770800000000000000
+      internalID: 8610750728365480241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_14
+      rect:
+        serializedVersion: 2
+        x: 4863
+        y: 2687
+        width: 546
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33839200004fd3860800000000000000
+      internalID: 7511428034363734067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_15
+      rect:
+        serializedVersion: 2
+        x: 6911
+        y: 2687
+        width: 546
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c49499e795b9990800000000000000
+      internalID: -7378205164243956605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_16
+      rect:
+        serializedVersion: 2
+        x: 8959
+        y: 2687
+        width: 546
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044d8031e118a4870800000000000000
+      internalID: 8667882398996288576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_17
+      rect:
+        serializedVersion: 2
+        x: 11007
+        y: 2687
+        width: 546
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248a1410d203e3c50800000000000000
+      internalID: 6646803069898172482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_18
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 639
+        width: 514
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8e8ae31934b13e0800000000000000
+      internalID: -2081996111628146445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_19
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 639
+        width: 482
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef05e8a70987aa200800000000000000
+      internalID: 192098496043438334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_20
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 639
+        width: 514
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a507d1f25b1e8f40800000000000000
+      internalID: 5732549418747889061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_21
+      rect:
+        serializedVersion: 2
+        x: 6911
+        y: 639
+        width: 514
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20553d1a41551f6e0800000000000000
+      internalID: -1805568428496169726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_22
+      rect:
+        serializedVersion: 2
+        x: 8959
+        y: 639
+        width: 514
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50648d222f48d9f30800000000000000
+      internalID: 4583966171234584069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yina Walk Cycle (without layers)_23
+      rect:
+        serializedVersion: 2
+        x: 11007
+        y: 639
+        width: 514
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0ffb217a1ae0ef0800000000000000
+      internalID: -139996799455727430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Yina Walk Cycle (without layers)_0: -8777968272839222149
+      Yina Walk Cycle (without layers)_1: 5380106709641705331
+      Yina Walk Cycle (without layers)_10: 7875989910401580364
+      Yina Walk Cycle (without layers)_11: 7040955162225512341
+      Yina Walk Cycle (without layers)_12: 6951869851859084883
+      Yina Walk Cycle (without layers)_13: 8610750728365480241
+      Yina Walk Cycle (without layers)_14: 7511428034363734067
+      Yina Walk Cycle (without layers)_15: -7378205164243956605
+      Yina Walk Cycle (without layers)_16: 8667882398996288576
+      Yina Walk Cycle (without layers)_17: 6646803069898172482
+      Yina Walk Cycle (without layers)_18: -2081996111628146445
+      Yina Walk Cycle (without layers)_19: 192098496043438334
+      Yina Walk Cycle (without layers)_2: 2766908517295094855
+      Yina Walk Cycle (without layers)_20: 5732549418747889061
+      Yina Walk Cycle (without layers)_21: -1805568428496169726
+      Yina Walk Cycle (without layers)_22: 4583966171234584069
+      Yina Walk Cycle (without layers)_23: -139996799455727430
+      Yina Walk Cycle (without layers)_3: -531624286776249800
+      Yina Walk Cycle (without layers)_4: 4926952867200941710
+      Yina Walk Cycle (without layers)_5: -1035057652124861076
+      Yina Walk Cycle (without layers)_6: 8459835149127001310
+      Yina Walk Cycle (without layers)_7: 9216185963079480852
+      Yina Walk Cycle (without layers)_8: -8228980163971442930
+      Yina Walk Cycle (without layers)_9: -3994746795643196761
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
