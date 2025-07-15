@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    [SerializeField] private GameObject visualCue;
+    //[SerializeField] private GameObject visualCue;
     [SerializeField] private TextAsset inkJSON;
     [SerializeField] private bool triggerOnStart = true;
 
@@ -27,7 +27,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         playerInRange = false;
         hasInteracted = false;
-        visualCue.SetActive(false);
+        //visualCue.SetActive(false);
     }
 
     private void Start()
@@ -47,8 +47,8 @@ public class DialogueTrigger : MonoBehaviour
         
         if (playerInRange && !DialogueManager.GetInstance().dialogueIsPlaying && !hasInteracted)
         {
-            visualCue.SetActive(true);
-            if (Input.GetKeyDown("space"))
+            //visualCue.SetActive(true);
+            if (Input.GetKeyDown("e"))
             {
                 DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
                 hasInteracted = true;
@@ -56,7 +56,7 @@ public class DialogueTrigger : MonoBehaviour
         }
         else
         {
-            visualCue.SetActive(false);
+            //visualCue.SetActive(false);
         }
     }
 
