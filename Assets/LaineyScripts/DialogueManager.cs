@@ -71,7 +71,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(true);
         player.GetComponent<Move>().enabled = false;
 
-        ContinueStory();
+        //ContinueStory();
     }
 
     private void ExitDialogueMode()
