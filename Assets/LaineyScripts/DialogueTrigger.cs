@@ -6,7 +6,6 @@ public class DialogueTrigger : MonoBehaviour
 {
     //[SerializeField] private GameObject visualCue;
     [SerializeField] private TextAsset inkJSON;
-    [SerializeField] private bool triggerOnStart = true;
 
     private bool isActive = false;
 
@@ -30,20 +29,9 @@ public class DialogueTrigger : MonoBehaviour
         //visualCue.SetActive(false);
     }
 
-    private void Start()
-    {
-        if (triggerOnStart)
-        {
-            isActive = true;
-        }
-    }
-
     private void Update()
     {
-        if (!isActive)
-        {
-            return;
-        }
+
         
         if (playerInRange && !DialogueManager.GetInstance().dialogueIsPlaying && !hasInteracted)
         {
