@@ -9,6 +9,7 @@ public class ItemRequirementChecker : MonoBehaviour
     [Tooltip("List of item keys required to satisfy this check")]
     [SerializeField] private List<string> requiredItems;
     [SerializeField] private bool checkOnStart = true;
+    private bool playerInRange = false;
 
     public UnityEvent onRequirementsMet;
     public UnityEvent onRequirementsNotMet;
@@ -34,6 +35,25 @@ public class ItemRequirementChecker : MonoBehaviour
         {
             CheckRequirements();
         }
+    }
+
+    private void Update ()
+    {
+        if (playerInRange)
+        {
+            if (Input.GetKeyDown("e"))
+            {
+                playerInRange = false;
+                CheckRequirements();
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player")) return;
+
+        playerInRange = true;
     }
 
 
