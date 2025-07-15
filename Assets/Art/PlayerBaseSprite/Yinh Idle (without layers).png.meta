@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -148,12 +148,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_0
       rect:
         serializedVersion: 2
-        x: 735
-        y: 6783
-        width: 546
-        height: 706
+        x: 0
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,12 +170,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_1
       rect:
         serializedVersion: 2
-        x: 2783
-        y: 6783
-        width: 546
-        height: 706
+        x: 2048
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_2
       rect:
         serializedVersion: 2
-        x: 4831
-        y: 6783
-        width: 546
-        height: 706
+        x: 4096
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_3
       rect:
         serializedVersion: 2
-        x: 6879
-        y: 6783
-        width: 546
-        height: 706
+        x: 6144
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_4
       rect:
         serializedVersion: 2
-        x: 8927
-        y: 6783
-        width: 546
-        height: 706
+        x: 8192
+        y: 6144
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_5
       rect:
         serializedVersion: 2
-        x: 703
-        y: 4735
-        width: 546
-        height: 738
+        x: 0
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +280,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_6
       rect:
         serializedVersion: 2
-        x: 2751
-        y: 4735
-        width: 546
-        height: 738
+        x: 2048
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_7
       rect:
         serializedVersion: 2
-        x: 4799
-        y: 4735
-        width: 546
-        height: 738
+        x: 4096
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_8
       rect:
         serializedVersion: 2
-        x: 6847
-        y: 4735
-        width: 546
-        height: 738
+        x: 6144
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_9
       rect:
         serializedVersion: 2
-        x: 8895
-        y: 4735
-        width: 546
-        height: 738
+        x: 8192
+        y: 4096
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_10
       rect:
         serializedVersion: 2
-        x: 799
-        y: 2687
-        width: 546
-        height: 738
+        x: 0
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +390,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_11
       rect:
         serializedVersion: 2
-        x: 2847
-        y: 2687
-        width: 546
-        height: 738
+        x: 2048
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +412,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_12
       rect:
         serializedVersion: 2
-        x: 4895
-        y: 2687
-        width: 546
-        height: 738
+        x: 4096
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,12 +434,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_13
       rect:
         serializedVersion: 2
-        x: 6943
-        y: 2687
-        width: 546
-        height: 738
+        x: 6144
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_14
       rect:
         serializedVersion: 2
-        x: 8991
-        y: 2687
-        width: 546
-        height: 738
+        x: 8192
+        y: 2048
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: Yinh Idle (without layers)_15
       rect:
         serializedVersion: 2
-        x: 735
-        y: 639
-        width: 514
-        height: 706
+        x: 0
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -500,7 +500,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
