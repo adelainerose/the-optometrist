@@ -87,8 +87,8 @@ public class DialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             dialogueText.text = currentStory.Continue();
-            DisplayChoices();
             HandleTags(currentStory.currentTags);
+            DisplayChoices();
         }
         else
         {
