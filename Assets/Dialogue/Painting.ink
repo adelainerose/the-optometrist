@@ -1,1 +1,1 @@
-Hm. This painting seems nice. I wonder who made it. #speaker: Yina
+Hm. This painting seems nice. I wonder who made it. #speaker: Yina  #portrait: Yina_portrait

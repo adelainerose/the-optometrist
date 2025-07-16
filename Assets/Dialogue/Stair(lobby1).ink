@@ -1,1 +1,1 @@
-I should make my dad's coffee first. #speaker: Yumi
+I should make my dad's coffee first. #speaker: Yumi  #portrait: Yina_portrait

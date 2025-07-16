@@ -1,1 +1,1 @@
-This looks pretty useful.. too bad it's locked. #speaker: Yina
+This looks pretty useful.. too bad it's locked. #speaker: Yina  #portrait: Yina_portrait

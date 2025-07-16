@@ -4253,6 +4253,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1982476272491649977, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5354988832318219057, guid: f8787daa6dfdaa54d8b09294c31931e9, type: 3}
     - target: {fileID: 5547644557305243977, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
       propertyPath: m_Name
       value: Dialogue

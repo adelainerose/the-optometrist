@@ -1,1 +1,1 @@
-Weird... it's broken. #speaker: Yina
+Weird... it's broken. #speaker: Yina  #portrait: Yina_portrait
