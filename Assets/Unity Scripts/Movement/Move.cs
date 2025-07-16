@@ -29,6 +29,7 @@ public class Move : MonoBehaviour
             input = new Vector2(horizontal, 0);
         else
             input = new Vector2(0, vertical);
+
     }
 
     void FixedUpdate()
