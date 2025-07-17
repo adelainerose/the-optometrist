@@ -1,5 +1,7 @@
+using System.Linq;
+using System.Collections.Generic;
 using UnityEngine;
-using System.Collections;
+using UnityEngine.Events;
 
 public class RandomAudioPlayer : MonoBehaviour
 {
@@ -7,6 +9,7 @@ public class RandomAudioPlayer : MonoBehaviour
 
     private bool isOn = activate_flashlight.flashlightOn;
 
+    public UnityEvent playerLoses;
 
     [SerializeField] private AudioSource audioSource;
 
@@ -46,6 +49,7 @@ public class RandomAudioPlayer : MonoBehaviour
                 if (isOn)
                 {
                     Debug.Log("Boolean is TRUE!");
+                    playerLoses.Invoke();
                     // do something if true
                 }
                 else if (!isOn)
