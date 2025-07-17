@@ -4398,7 +4398,7 @@ Transform:
   m_GameObject: {fileID: 398554278}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.4035, y: 3.191, z: 0}
+  m_LocalPosition: {x: -1.89, y: 3.191, z: 0}
   m_LocalScale: {x: 1.1262836, y: 0.9435728, z: 1.3948}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5325,7 +5325,7 @@ Transform:
   m_GameObject: {fileID: 526900308}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.39, y: 2.963, z: 0}
+  m_LocalPosition: {x: -5.97, y: 2.963, z: 0}
   m_LocalScale: {x: 1.0663322, y: 0.94229484, z: 1.4007}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8606,6 +8606,7 @@ GameObject:
   - component: {fileID: 1513866273}
   - component: {fileID: 1513866272}
   - component: {fileID: 1513866275}
+  - component: {fileID: 1513866276}
   m_Layer: 0
   m_Name: Coffee machine
   m_TagString: Untagged
@@ -8635,7 +8636,19 @@ MonoBehaviour:
       m_Calls: []
   onRequirementsNotMet:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513866276}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: StartDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!212 &1513866273
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8752,6 +8765,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 2.6401243}
   m_EdgeRadius: 0
+--- !u!114 &1513866276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513866271}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79179200ab6566c43b54ddbced2e95a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inkJSON: {fileID: 4900000, guid: 5a98fad12fde74f48894cb791c1e6d9b, type: 3}
+  playOnStart: 0
 --- !u!1 &1570057010
 GameObject:
   m_ObjectHideFlags: 0
