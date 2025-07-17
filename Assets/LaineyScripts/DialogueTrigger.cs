@@ -6,9 +6,18 @@ public class DialogueTrigger : MonoBehaviour
 {
     //[SerializeField] private GameObject visualCue;
     [SerializeField] private TextAsset inkJSON;
+    [SerializeField] private bool playOnStart = false;
 
     private bool playerInRange;
     private bool hasInteracted;
+
+    private void Start()
+    {
+        if (playOnStart)
+        {
+            StartDialogue();
+        }
+    }
 
     private void Awake()
     {

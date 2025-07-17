@@ -22,7 +22,7 @@ public class DialogueManager : MonoBehaviour
     private Story currentStory;
 
     public bool dialogueIsPlaying { get; private set; }
-    
+
     private static DialogueManager instance;
 
     private const string SPEAKER_TAG = "speaker";
@@ -45,7 +45,7 @@ public class DialogueManager : MonoBehaviour
 
         choicesText = new TextMeshProUGUI[choices.Length];
         int index = 0;
-        foreach(GameObject choice in  choices)
+        foreach (GameObject choice in choices)
         {
             choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
             index++;
@@ -70,8 +70,7 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
         player.GetComponent<Move>().enabled = false;
-
-        //ContinueStory();
+        ContinueStory();
     }
 
     private void ExitDialogueMode()
@@ -87,8 +86,9 @@ public class DialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             dialogueText.text = currentStory.Continue();
+            //if (choices != null)
+                //DisplayChoices();
             HandleTags(currentStory.currentTags);
-            DisplayChoices();
         }
         else
         {
@@ -117,7 +117,7 @@ public class DialogueManager : MonoBehaviour
                     break;
             }
         }
-        
+
     }
 
     private void DisplayChoices()
