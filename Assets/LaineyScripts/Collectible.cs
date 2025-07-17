@@ -17,11 +17,11 @@ public class Collectible : MonoBehaviour
             {
                 InventoryManager.Instance.AddItem(itemKey);
                 playerInRange = false;
+                Destroy(gameObject);
                 if (addDialogue != null)
                 {
                     addDialogue.Invoke();
                 }
-                Destroy(gameObject);
             }
         }
     }
