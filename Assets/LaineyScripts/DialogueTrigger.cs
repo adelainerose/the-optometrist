@@ -7,20 +7,8 @@ public class DialogueTrigger : MonoBehaviour
     //[SerializeField] private GameObject visualCue;
     [SerializeField] private TextAsset inkJSON;
 
-    private bool isActive = false;
-
     private bool playerInRange;
     private bool hasInteracted;
-
-    public void EnableComponent()
-    {
-        isActive = true;
-    }
-
-    public void DisableComponent()
-    {
-        isActive = false;
-    }
 
     private void Awake()
     {
@@ -38,7 +26,7 @@ public class DialogueTrigger : MonoBehaviour
             //visualCue.SetActive(true);
             if (Input.GetKeyDown("e"))
             {
-                DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
+                StartDialogue();
                 hasInteracted = true;
             }
         }
@@ -46,6 +34,11 @@ public class DialogueTrigger : MonoBehaviour
         {
             //visualCue.SetActive(false);
         }
+    }
+
+    public void StartDialogue()
+    {
+        DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
     }
 
     private void OnTriggerEnter2D(Collider2D collider)

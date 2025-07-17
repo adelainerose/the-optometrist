@@ -70,7 +70,8 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
         player.GetComponent<Move>().enabled = false;
-        ContinueStory();
+
+        //ContinueStory();
     }
 
     private void ExitDialogueMode()
@@ -86,8 +87,8 @@ public class DialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             dialogueText.text = currentStory.Continue();
-            DisplayChoices();
             HandleTags(currentStory.currentTags);
+            DisplayChoices();
         }
         else
         {

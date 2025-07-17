@@ -1,0 +1,1 @@
+I need to get to my dad. I have no time to dilly dally. #speaker: Yina  #portrait: Yina_portrait

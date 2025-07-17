@@ -1,9 +1,13 @@
+using System.Linq;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Collectible : MonoBehaviour
 {
     [SerializeField] private string itemKey;
     private bool playerInRange = false;
+    public UnityEvent addDialogue;
 
     private void Update()
     {
@@ -13,6 +17,10 @@ public class Collectible : MonoBehaviour
             {
                 InventoryManager.Instance.AddItem(itemKey);
                 playerInRange = false;
+                if (addDialogue != null)
+                {
+                    addDialogue.Invoke();
+                }
                 Destroy(gameObject);
             }
         }

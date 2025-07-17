@@ -1,117 +1,52 @@
 using UnityEngine;
-using System.Collections;
 
-[AddComponentMenu("Playground/Movement/Move With Arrows")]
 [RequireComponent(typeof(Rigidbody2D))]
-public class Move : Physics2DObject
+public class Move : MonoBehaviour
 {
-	[Header("Input keys")]
-	public Enums.KeyGroups typeOfControl = Enums.KeyGroups.ArrowKeys;
+    [Tooltip("Pixels Per Unit of your sprites (default is usually 100)")]
+    public int pixelsPerUnit = 100;
 
-	[Header("Movement")]
-	[Tooltip("Speed of movement")]
-	public float speed = 5f;
-	public Enums.MovementType movementType = Enums.MovementType.AllDirections;
+    [Tooltip("Speed in pixels per second")]
+    public float speedPixelsPerSecond = 100f;
 
-	[Header("Orientation")]
-	public bool orientToDirection = false;
-	// The direction that will face the player
-	public Enums.Directions lookAxis = Enums.Directions.Up;
+    private Rigidbody2D rb;
+    private Vector2 input;
+    private float moveSpeedUnitsPerSecond;
 
-	private Vector3 movement, cachedDirection;
-	private float moveHorizontal;
-	private float moveVertical;
-
-    //Animations
-    public Animator animator;
-
-    private void Start()
+    private void Awake()
     {
-        animator = GetComponent<Animator>();
-        Debug.Log(animator);
-    }
-    // Update gets called every frame
-    void Update ()
-	{
-        //#if UNITY_STANDALONE || !UNITY_EDITOR
-        // Moving with the arrow keys
-        if(typeOfControl == Enums.KeyGroups.ArrowKeys)
-		{
-			moveHorizontal = Input.GetAxis("Horizontal");
-			moveVertical = Input.GetAxis("Vertical");
-		}
-		else if (typeOfControl == Enums.KeyGroups.WASD)
-		{
-			moveHorizontal = Input.GetAxis("Horizontal2");
-			moveVertical = Input.GetAxis("Vertical2");
-		}
-        //#endif
-    
-        //zero-out the axes that are not needed, if the movement is constrained
-        switch(movementType)
-		{
-			case Enums.MovementType.OnlyHorizontal:
-				moveVertical = 0f;
-				break;
-			case Enums.MovementType.OnlyVertical:
-				moveHorizontal = 0f;
-				break;
-		}
-			
-		movement = new Vector3(moveHorizontal, moveVertical);
-        //if(animator != null) animator.SetFloat("runSpeed", Mathf.Abs(moveHorizontal) *2f);
-
-
-		//rotate the GameObject towards the direction of movement
-		//the axis to look can be decided with the "axis" variable
-		if(orientToDirection)
-		{
-			if(movement.sqrMagnitude >= 0.01f)
-			{
-				cachedDirection = movement;
-			}
-			Utils.SetAxisTowards(lookAxis, transform, cachedDirection);
-		}
-	}
-
-
-
-	// FixedUpdate is called every frame when the physics are calculated
-	void FixedUpdate ()
-	{
-        // Apply the force to the Rigidbody2d
-        //rigidbody2D.AddForce(movement * speed * 10f);
-        transform.position += movement * speed * 0.1f;
-	}
-
-
-    // Set the horizontal move direction to left (-1) or right (1)
-    // Called by mobile input UI buttons
-    public void SetHorizontalInput(int input)
-    {
-        moveHorizontal = input;
+        rb = GetComponent<Rigidbody2D>();
+        rb.interpolation = RigidbodyInterpolation2D.None; // Avoid interpolation for pixel perfect
     }
 
-    public void SetMoveLeft()
+    private void Update()
     {
-        //if (animator != null) animator.SetFloat("runSpeed", speed);
-        //if (animator != null) animator.SetBool("Moving", true);
-        Debug.Log("Left");
-        moveHorizontal = -1;
+        // Get raw input so we only move in discrete steps (no smoothing)
+        float horizontal = Input.GetAxisRaw("Horizontal"); // A/D and Left/Right arrows
+        float vertical = Input.GetAxisRaw("Vertical");     // W/S and Up/Down arrows
+
+        if (horizontal != 0)
+            input = new Vector2(horizontal, 0);
+        else
+            input = new Vector2(0, vertical);
+
     }
 
-    public void SetMoveRight()
+    void FixedUpdate()
     {
-        //if (animator != null) animator.SetFloat("runSpeed", speed);
-        //if (animator != null) animator.SetBool("Moving", true);
-        Debug.Log("Left");
-        moveHorizontal = 1;
-    }
+        float moveSpeedUnitsPerSecond = speedPixelsPerSecond / pixelsPerUnit;
 
-    public void StopMoving()
-    {
-        //if (animator != null) animator.SetFloat("runSpeed", 0f);
-        //if (animator != null) animator.SetBool("Moving", false);
-        moveHorizontal = 0;
+        Vector2 movement = input * moveSpeedUnitsPerSecond * Time.fixedDeltaTime;
+
+        Vector2 currentPosPixels = (Vector2)transform.position * pixelsPerUnit;
+
+        Vector2 newPosPixels = currentPosPixels + (movement * pixelsPerUnit);
+
+        newPosPixels.x = Mathf.Round(newPosPixels.x);
+        newPosPixels.y = Mathf.Round(newPosPixels.y);
+
+        Vector2 newPosUnits = newPosPixels / pixelsPerUnit;
+
+        rb.MovePosition(newPosUnits);
     }
 }
