@@ -8606,7 +8606,6 @@ GameObject:
   - component: {fileID: 1513866273}
   - component: {fileID: 1513866272}
   - component: {fileID: 1513866275}
-  - component: {fileID: 1513866276}
   m_Layer: 0
   m_Name: Coffee machine
   m_TagString: Untagged
@@ -8701,13 +8700,8 @@ Transform:
   m_GameObject: {fileID: 1513866271}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: -3.4356, y: 3.3422, z: 0}
-  m_LocalScale: {x: 1.0693095, y: 1.2125071, z: 1}
-=======
   m_LocalPosition: {x: -3.763, y: 3.3378, z: 0}
   m_LocalScale: {x: 1.1766169, y: 1.2031227, z: 1}
->>>>>>> f931f59c4a98d381dd5cd551b0e96814d94cae2d
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -8758,22 +8752,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 2.6401243}
   m_EdgeRadius: 0
---- !u!111 &1513866276
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513866271}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
 --- !u!1 &1570057010
 GameObject:
   m_ObjectHideFlags: 0
