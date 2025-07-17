@@ -1,9 +1,8 @@
-using System.Linq;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 using UnityEngine.Events;
 
-public class RandomAudioPlayer : MonoBehaviour
+public class MonsterEncounter : MonoBehaviour
 {
     [SerializeField] private GameObject player;
 
