@@ -4536,6 +4536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inkJSON: {fileID: 4900000, guid: 5883de4316d7ec3409ae7518a04f8ed0, type: 3}
+  playOnStart: 0
 --- !u!114 &445144686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4840,6 +4841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inkJSON: {fileID: 4900000, guid: 38c1f3307efbde44fa09b2ee940a349d, type: 3}
+  playOnStart: 0
 --- !u!1001 &495781946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6344,7 +6346,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.09455657, y: -0.44201744}
+  m_Offset: {x: -0.09455657, y: -0.26189652}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6354,7 +6356,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.99328756, y: 1.284035}
+  m_Size: {x: 0.99328756, y: 0.92379326}
   m_EdgeRadius: 0
 --- !u!212 &901676961
 SpriteRenderer:
@@ -9399,6 +9401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inkJSON: {fileID: 4900000, guid: 59ea2dbdd3328d144993295ba494e848, type: 3}
+  playOnStart: 0
 --- !u!1 &1570057010
 GameObject:
   m_ObjectHideFlags: 0

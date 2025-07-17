@@ -22,6 +22,7 @@ public class DialogueManager : MonoBehaviour
     private Story currentStory;
 
     public bool dialogueIsPlaying { get; private set; }
+    private int currentLineIndex = 0;
 
     private static DialogueManager instance;
 
@@ -58,8 +59,9 @@ public class DialogueManager : MonoBehaviour
         {
             return;
         }
-        if (Input.GetKeyDown("e"))
+        if (Input.GetKeyDown("space"))
         {
+            Debug.Log("keypress continue");
             ContinueStory();
         }
     }
@@ -70,6 +72,7 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
         player.GetComponent<Move>().enabled = false;
+        Debug.Log("entered dialogue mode");
         ContinueStory();
     }
 
@@ -89,6 +92,7 @@ public class DialogueManager : MonoBehaviour
             //if (choices != null)
                 //DisplayChoices();
             HandleTags(currentStory.currentTags);
+            currentLineIndex++;
         }
         else
         {
