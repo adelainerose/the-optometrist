@@ -72,7 +72,7 @@ public class VisualNovelDialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             dialogueText.text = currentStory.Continue();
-            DisplayChoices();
+            //DisplayChoices();
             HandleTags(currentStory.currentTags);
         }
         else

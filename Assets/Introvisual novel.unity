@@ -136,7 +136,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1548732414}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873972383}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -319,6 +319,14 @@ PrefabInstance:
     - target: {fileID: 1793865616988268865, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
       propertyPath: m_Name
       value: Yina art
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793865616988268865, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982476272491649977, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5547644557305243977, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
       propertyPath: m_Name
