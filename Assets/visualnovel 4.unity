@@ -234,6 +234,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue
       objectReference: {fileID: 0}
+    - target: {fileID: 5677535652932802324, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1317.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677535652932802324, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 841
+      objectReference: {fileID: 0}
     - target: {fileID: 8495451410238092283, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -501,12 +509,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c69be88bf0a771409a5813c9144f1ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSON: {fileID: 4900000, guid: 5682d339c4d51fa4bbbc7c03313c4c1e, type: 3}
+  inkJSON: {fileID: 4900000, guid: d97b5bc6a5e71dd49b13e4d011a2347d, type: 3}
   dialoguePanel: {fileID: 835054206}
   dialogueText: {fileID: 90736369}
   displayNameText: {fileID: 1967646914}
   portraitAnimator: {fileID: 1630460332}
-  LoadLevel: Secondlobby
+  LoadLevel: Floor 3
   choices: []
 --- !u!4 &2139648230
 Transform:

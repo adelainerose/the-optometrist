@@ -103,12 +103,12 @@ TextureImporter:
       name: MC for game (color)_0
       rect:
         serializedVersion: 2
-        x: 292
-        y: 249
-        width: 481
-        height: 649
+        x: 251
+        y: 403
+        width: 555
+        height: 575
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d7837795da4e7e34daa6268c6f6a38a9
     internalID: 0
     vertices: []
     indices: 
