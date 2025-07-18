@@ -3,6 +3,7 @@ using TMPro;
 using Ink.Runtime;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class VisualNovelDialogueManager : MonoBehaviour
 {
@@ -12,7 +13,8 @@ public class VisualNovelDialogueManager : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI displayNameText;
-    [SerializeField] private Animator portraitAnimator;
+    [SerializeField] private Image yinaPortrait;
+    [SerializeField] private Image dadPortrait;
     [SerializeField] private string LoadLevel;
 
     [Header("Choices UI")]
@@ -31,7 +33,7 @@ public class VisualNovelDialogueManager : MonoBehaviour
 
         choicesText = new TextMeshProUGUI[choices.Length];
         int index = 0;
-        foreach(GameObject choice in  choices)
+        foreach (GameObject choice in choices)
         {
             choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
             index++;
@@ -70,7 +72,7 @@ public class VisualNovelDialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             dialogueText.text = currentStory.Continue();
-            //DisplayChoices();
+            DisplayChoices();
             HandleTags(currentStory.currentTags);
         }
         else
@@ -94,13 +96,25 @@ public class VisualNovelDialogueManager : MonoBehaviour
                     displayNameText.text = tagValue;
                     break;
                 case PORTRAIT_TAG:
-                    portraitAnimator.Play(tagValue);
+                    if (tagValue == "Yina_portrait")
+                    {
+                        yinaPortrait.enabled = true;
+                    }
+                    else if (tagValue == "Dad_portrait")
+                    {
+                        dadPortrait.enabled = true;
+                    }
+                    else
+                    {
+                        yinaPortrait.enabled = false;
+                        dadPortrait.enabled = false;
+                    }
                     break;
                 default:
                     break;
             }
         }
-        
+
     }
 
     private void DisplayChoices()
