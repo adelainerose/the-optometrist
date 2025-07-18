@@ -501,12 +501,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c69be88bf0a771409a5813c9144f1ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSON: {fileID: 4900000, guid: 018f758ba4de21543b8ad0f089ebae97, type: 3}
+  inkJSON: {fileID: 4900000, guid: 7971ce8eec5a203469d089203a8fd791, type: 3}
   dialoguePanel: {fileID: 835054206}
   dialogueText: {fileID: 90736369}
   displayNameText: {fileID: 1967646914}
   portraitAnimator: {fileID: 1630460332}
-  LoadLevel: Lobby
+  LoadLevel: Secondlobby
   choices: []
 --- !u!4 &2139648230
 Transform:
