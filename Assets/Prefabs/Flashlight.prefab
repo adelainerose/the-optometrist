@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7787324660039647975}
   - component: {fileID: 6550004709538442398}
+  - component: {fileID: 2784391365978276639}
   m_Layer: 0
   m_Name: Flashlight
   m_TagString: Untagged
@@ -84,3 +85,22 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &2784391365978276639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5763692373148694622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32edca63f09bb44f8027464c32390e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 6550004709538442398}
+  minIntensity: 0
+  maxIntensity: 1.28
+  normalIntensity: 1
+  minTimeBetweenFlickers: 1
+  maxTimeBetweenFlickers: 3
+  flickerDuration: 2
