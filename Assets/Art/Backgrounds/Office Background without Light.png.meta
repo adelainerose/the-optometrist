@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ed28f2ea2d437294c94cd98b53928b3a
+guid: 47dbc198602f5dc4e81c73c73e5ebd6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8018299501662629890
-    second: GPT-enhanced-hospital_0
+      213: -701827175681852259
+    second: Office Background without Light_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GPT-enhanced-hospital_0
+      name: Office Background without Light_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1536
-        height: 1024
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eff05b4061749b090800000000000000
-      internalID: -8018299501662629890
+      spriteID: d9c74c3f6eb9246f0800000000000000
+      internalID: -701827175681852259
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GPT-enhanced-hospital_0: -8018299501662629890
+      Office Background without Light_0: -701827175681852259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

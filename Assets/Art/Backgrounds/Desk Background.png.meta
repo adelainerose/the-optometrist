@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2143619f90449104cac0830aaedb0729
+guid: 76cf791de7dbc8a44ae8a288ecd52b3c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6046391367187416777
-    second: GPT-enhanced-office_0
+      213: -8206587202341986622
+    second: Desk Background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GPT-enhanced-office_0
+      name: Desk Background_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1536
-        height: 1024
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7393ec13617e61ca0800000000000000
-      internalID: -6046391367187416777
+      spriteID: 2ce932a7b685c1e80800000000000000
+      internalID: -8206587202341986622
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GPT-enhanced-office_0: -6046391367187416777
+      Desk Background_0: -8206587202341986622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
