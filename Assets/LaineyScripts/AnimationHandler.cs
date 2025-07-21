@@ -3,6 +3,7 @@ using UnityEngine;
 public class AnimationHandler : MonoBehaviour
 {
     Animator animator;
+    [SerializeField] private AudioSource walkingAudio;
 
     void Start()
     {
@@ -42,5 +43,21 @@ public class AnimationHandler : MonoBehaviour
         animator.SetBool("MovingUp", finalUp);
         animator.SetBool("MovingDown", finalDown);
         animator.SetBool("MovingAll", movingAll);
+
+        if (movingAll)
+            playWalkingAudio();
+        else if (!movingAll)
+            stopWalkingAudio();
+    }
+
+    private void playWalkingAudio()
+    {
+        if (!walkingAudio.isPlaying)
+            walkingAudio.Play();
+    }
+
+    private void stopWalkingAudio()
+    {
+        walkingAudio.Stop();
     }
 }
