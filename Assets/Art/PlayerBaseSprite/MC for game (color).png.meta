@@ -103,12 +103,12 @@ TextureImporter:
       name: MC for game (color)_0
       rect:
         serializedVersion: 2
-        x: 251
-        y: 403
-        width: 555
-        height: 575
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 248
+        y: 404
+        width: 553
+        height: 505
+      alignment: 9
+      pivot: {x: 0.5108814, y: 0.4666759}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

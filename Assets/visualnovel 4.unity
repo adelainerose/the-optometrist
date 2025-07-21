@@ -235,12 +235,20 @@ PrefabInstance:
       value: Dialogue
       objectReference: {fileID: 0}
     - target: {fileID: 5677535652932802324, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 105.9613
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677535652932802324, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 93.894
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677535652932802324, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1317.3
+      value: 1364.288
       objectReference: {fileID: 0}
     - target: {fileID: 5677535652932802324, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 841
+      value: 361.1919
       objectReference: {fileID: 0}
     - target: {fileID: 8495451410238092283, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
       propertyPath: m_Pivot.x
@@ -327,11 +335,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
---- !u!95 &1630460332 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6167543541363708546, guid: a50d1d0cbcad75b42be5099b0935e1c2, type: 3}
-  m_PrefabInstance: {fileID: 1548732414}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1672905561
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,7 +516,8 @@ MonoBehaviour:
   dialoguePanel: {fileID: 835054206}
   dialogueText: {fileID: 90736369}
   displayNameText: {fileID: 1967646914}
-  portraitAnimator: {fileID: 1630460332}
+  yinaPortrait: {fileID: 0}
+  dadPortrait: {fileID: 0}
   LoadLevel: Floor 3
   choices: []
 --- !u!4 &2139648230
