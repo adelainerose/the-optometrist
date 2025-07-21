@@ -103,12 +103,12 @@ TextureImporter:
       name: DAD for game (color)_0
       rect:
         serializedVersion: 2
-        x: 244
-        y: 425
+        x: 252
+        y: 232
         width: 555
-        height: 575
-      alignment: 9
-      pivot: {x: 0.504397, y: 0.50903803}
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 316d7e191656ba2419200d3f3043cd58
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
