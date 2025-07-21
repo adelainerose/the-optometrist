@@ -5939,6 +5939,64 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67539ec544c65f943902ae1eaa9c35e0, type: 3}
+--- !u!1 &774733008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1788616821898540598, guid: 4dbbacdd01d6bea4fb397e64d6a9d301, type: 3}
+  m_PrefabInstance: {fileID: 1104179684374716138}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &774733009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774733008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ImpulseDefinition:
+    ImpulseChannel: 1
+    ImpulseShape: 4
+    CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ImpulseDuration: 1.5
+    ImpulseType: 0
+    DissipationRate: 0.25
+    RawSignal: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    RepeatMode: 0
+    Randomize: 1
+    TimeEnvelope:
+      AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AttackTime: 0
+      SustainTime: 0.2
+      DecayTime: 0.7
+      ScaleWithImpact: 1
+      HoldForever: 0
+    ImpactRadius: 100
+    DirectionMode: 0
+    DissipationMode: 2
+    DissipationDistance: 100
+    PropagationSpeed: 343
+  DefaultVelocity: {x: 1, y: 1, z: 0}
 --- !u!82 &798767072 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 4703599770724522582, guid: cf30287c8e573244d80e9c6dedf7c7ca, type: 3}
@@ -9458,7 +9516,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.82006264}
+  m_Offset: {x: 0, y: -0.42862678}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9468,7 +9526,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 2.6401243}
+  m_Size: {x: 1, y: 1.8572524}
   m_EdgeRadius: 0
 --- !u!114 &1513866276
 MonoBehaviour:
@@ -9482,7 +9540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79179200ab6566c43b54ddbced2e95a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSON: {fileID: 4900000, guid: 59ea2dbdd3328d144993295ba494e848, type: 3}
+  inkJSON: {fileID: 4900000, guid: b5a052819f3189d46b79d8ba8a6fa22f, type: 3}
   playOnStart: 0
 --- !u!1 &1570057010
 GameObject:
@@ -12034,6 +12092,7 @@ GameObject:
   - component: {fileID: 1909631776}
   - component: {fileID: 1909631775}
   - component: {fileID: 1909631774}
+  - component: {fileID: 1909631777}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -12130,6 +12189,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1909631777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909631773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApplyAfter: 2
+  ChannelMask: 1
+  Gain: 1
+  Use2DDistance: 0
+  UseCameraSpace: 1
+  SignalCombinationMode: 0
+  ReactionSettings:
+    m_SecondaryNoise: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    Duration: 1
+    m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &1919139756
 GameObject:
   m_ObjectHideFlags: 0
@@ -12164,7 +12247,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.003
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -12414,7 +12497,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1788616821898540598, guid: 4dbbacdd01d6bea4fb397e64d6a9d301, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 774733009}
   m_SourcePrefab: {fileID: 100100000, guid: 4dbbacdd01d6bea4fb397e64d6a9d301, type: 3}
 --- !u!1001 &1272379403796767611
 PrefabInstance:

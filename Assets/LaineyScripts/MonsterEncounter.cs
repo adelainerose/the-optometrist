@@ -9,6 +9,7 @@ public class MonsterEncounter : MonoBehaviour
     private bool isOn = activate_flashlight.flashlightOn;
 
     public UnityEvent playerLoses;
+    public UnityEvent audioPlayed;
 
     [SerializeField] private AudioSource audioSource;
 
@@ -32,7 +33,7 @@ public class MonsterEncounter : MonoBehaviour
 
             // Play audio
             audioSource.Play();
-            Debug.Log("audio played");
+            audioPlayed.Invoke();
 
             // Wait until audio finishes playing
             yield return new WaitForSeconds(audioSource.clip.length);
