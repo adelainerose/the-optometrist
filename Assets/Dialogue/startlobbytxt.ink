@@ -1,1 +1,2 @@
 Alright. My first task. I'll need to find creamer, beans, and sugar in the breakroom for my dad's coffee. #speaker: Yina #portrait: Yina_portrait
+(Press "e" to interact with different objects.) #speaker: Yina #portrait: Yina_portrait

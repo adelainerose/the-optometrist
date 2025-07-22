@@ -1,1 +1,2 @@
 I can't be caught. I need to find a way up. #speaker: Yina #portrait: Yina
+And that monster my dad mentioned... I should probably turn off my light when it comes by. #speaker: Yina #portrait: Yina_portrait
