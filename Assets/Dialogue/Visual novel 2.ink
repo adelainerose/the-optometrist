@@ -1,4 +1,5 @@
 Yina, are you there? Please, help, I’m stuck in my office, up on the top floor. #speaker: Dad #portrait: Dad_portrait
+What? I can hear my dad over the loudspeaker. #speaker: Yina #portrait: Yina_portrait
 There’s something blocking the door. #speaker: Dad #portrait: Dad_portrait
 Dad? What happened? #speaker: Yina #portrait: Yina_portrait
 Yina, please hurry. I keep hearing these… strange noises. #speaker: Dad #portrait: Dad_portrait

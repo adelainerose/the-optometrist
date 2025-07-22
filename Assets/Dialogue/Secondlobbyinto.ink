@@ -1,1 +1,1 @@
-I need to find a way up. #speaker: Yina #speakerportrait: Yina
+I can't be caught. I need to find a way up. #speaker: Yina #portrait: Yina
