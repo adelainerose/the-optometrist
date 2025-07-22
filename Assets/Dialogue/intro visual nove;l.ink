@@ -1,3 +1,5 @@
+Alright. Today is my first day working at my dad's optometry office. #speaker: Yina #portrait: Yina_portrait
+I hope it goes well... I'm nervous. #speaker: Yina #portrait: Yina_portrait
 Well, welcome Yina, to your first day on the job! What do you think of the office? #speaker: Dad #portrait: Dad_portrait
 It’s nice… and very bright. #speaker: Yina #portrait: Yina_portrait
 It’s an optometry office, what did you expect? But nevertheless, this isn’t a place for relaxing. #speaker: Dad #portrait: Dad_portrait

@@ -1,2 +1,2 @@
 Of course my only way up is destroyed. How did this happen? #speaker: Yina  #portrait: Yina_portrait
-Nevertheless, I should find another way up. #speaker: Yina  #portrait: Yina_portrait
+It doesn't matter... I bet one of these offices has another way up. #speaker: Yina  #portrait: Yina_portrait
