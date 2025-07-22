@@ -565,7 +565,6 @@ GameObject:
   - component: {fileID: 239592251}
   - component: {fileID: 239592250}
   - component: {fileID: 239592249}
-  - component: {fileID: 239592254}
   - component: {fileID: 239592256}
   - component: {fileID: 239592258}
   m_Layer: 0
@@ -608,7 +607,7 @@ MonoBehaviour:
   onRequirementsNotMet:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 239592254}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LoadLevelAction, Assembly-CSharp
         m_MethodName: LoadLevel
         m_Mode: 1
@@ -681,19 +680,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &239592254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239592248}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: Lobby
 --- !u!114 &239592256
 MonoBehaviour:
   m_ObjectHideFlags: 0
