@@ -470,6 +470,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7388018654704567956, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
   m_PrefabInstance: {fileID: 1653928370}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1653928375 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8146266835707957367, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
+  m_PrefabInstance: {fileID: 1653928370}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1672905561
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +650,7 @@ MonoBehaviour:
   inkJSON: {fileID: 4900000, guid: 5682d339c4d51fa4bbbc7c03313c4c1e, type: 3}
   dialoguePanel: {fileID: 1653928374}
   dialogueText: {fileID: 1653928372}
-  displayNameText: {fileID: 0}
+  displayNameText: {fileID: 1653928375}
   yinaPortrait: {fileID: 1653928373}
   dadPortrait: {fileID: 1653928371}
   LoadLevel: Floor 3

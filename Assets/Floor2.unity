@@ -218,8 +218,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    ImpulseDuration: 1.5
-    ImpulseType: 0
+    ImpulseDuration: 2.5
+    ImpulseType: 1
     DissipationRate: 0.25
     RawSignal: {fileID: 0}
     AmplitudeGain: 1
@@ -249,7 +249,7 @@ MonoBehaviour:
     DissipationMode: 2
     DissipationDistance: 100
     PropagationSpeed: 343
-  DefaultVelocity: {x: 1, y: 1, z: 0}
+  DefaultVelocity: {x: 3, y: 3, z: 0}
 --- !u!1001 &81677896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1250,7 +1250,7 @@ Transform:
   m_GameObject: {fileID: 394428832}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.37375328, w: 0.9275282}
-  m_LocalPosition: {x: 0.246, y: -0.259, z: 0}
+  m_LocalPosition: {x: -0.244, y: -0.305, z: 0}
   m_LocalScale: {x: 0.85692525, y: 0.85692525, z: 0.85692537}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10796,7 +10796,7 @@ Transform:
   m_GameObject: {fileID: 1920701139}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.86, y: -23.33, z: 0}
+  m_LocalPosition: {x: 12.12, y: -23.65, z: 0}
   m_LocalScale: {x: 5.0128, y: 5.0128, z: 5.0128}
   m_ConstrainProportionsScale: 0
   m_Children:

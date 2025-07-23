@@ -6357,8 +6357,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    ImpulseDuration: 1.5
-    ImpulseType: 0
+    ImpulseDuration: 2.5
+    ImpulseType: 1
     DissipationRate: 0.25
     RawSignal: {fileID: 0}
     AmplitudeGain: 1
@@ -6388,7 +6388,7 @@ MonoBehaviour:
     DissipationMode: 2
     DissipationDistance: 100
     PropagationSpeed: 343
-  DefaultVelocity: {x: 1, y: 1, z: 0}
+  DefaultVelocity: {x: 3, y: 3, z: 0}
 --- !u!82 &798767072 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 4703599770724522582, guid: cf30287c8e573244d80e9c6dedf7c7ca, type: 3}
