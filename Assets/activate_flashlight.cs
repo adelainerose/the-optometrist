@@ -4,6 +4,7 @@ public class activate_flashlight : MonoBehaviour
 {
     [SerializeField] private GameObject flashlight;
     public static bool flashlightOn = false;
+    [SerializeField] private AudioSource FlashlightAudio;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,6 +17,8 @@ public class activate_flashlight : MonoBehaviour
     {
         if (Input.GetKeyDown("x"))
         {
+            FlashlightAudio.time = 0.05f;
+            FlashlightAudio.Play();
             if (flashlightOn)
             {
                 flashlight.SetActive(false);

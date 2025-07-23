@@ -6014,7 +6014,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.23}
+    oldSize: {x: 0.17, y: 0.24}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6066,7 +6066,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 2569677609930514304, guid: ec3e477baf175bb4d99a91385e63af64, type: 3}
+  m_Sprite: {fileID: -1912716772566653806, guid: 995b10fa6fccff4429c1fa2e3675d241, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8893,6 +8893,7 @@ GameObject:
   - component: {fileID: 1513866272}
   - component: {fileID: 1513866275}
   - component: {fileID: 1513866276}
+  - component: {fileID: 1513866277}
   m_Layer: 0
   m_Name: Coffee machine
   m_TagString: Untagged
@@ -8915,17 +8916,28 @@ MonoBehaviour:
   requiredItems:
   - Creamer
   - Coffee Beans
-  - Sugar
-  checkOnStart: 0
+  checkOnStart: 1
   onRequirementsMet:
-    m_PersistentCalls:
-      m_Calls: []
-  onRequirementsNotMet:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1513866276}
         m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
         m_MethodName: StartDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onRequirementsNotMet:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1513866277}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9064,6 +9076,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inkJSON: {fileID: 4900000, guid: 5a98fad12fde74f48894cb791c1e6d9b, type: 3}
+  playOnStart: 0
+--- !u!114 &1513866277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513866271}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79179200ab6566c43b54ddbced2e95a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inkJSON: {fileID: 4900000, guid: 5cdce09680fad214cb44c7a387de76ec, type: 3}
   playOnStart: 0
 --- !u!1 &1570057010
 GameObject:
