@@ -16,7 +16,7 @@ public class MonsterEncounter : MonoBehaviour
     [SerializeField] private float minDelay = 1f;
     [SerializeField] private float maxDelay = 5f;
 
-    [SerializeField] private float waitAfterAudio = 2f;
+    //[SerializeField] private float waitAfterAudio = 2f;
 
     void Start()
     {
@@ -39,7 +39,7 @@ public class MonsterEncounter : MonoBehaviour
             yield return new WaitForSeconds(audioSource.clip.length);
 
             // Wait extra time after audio
-            yield return new WaitForSeconds(waitAfterAudio);
+            //yield return new WaitForSeconds(waitAfterAudio);
 
             isOn = activate_flashlight.flashlightOn;
 

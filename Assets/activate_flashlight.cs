@@ -3,7 +3,7 @@ using UnityEngine;
 public class activate_flashlight : MonoBehaviour
 {
     [SerializeField] private GameObject flashlight;
-    public static bool flashlightOn;
+    public static bool flashlightOn = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
