@@ -665,7 +665,7 @@ MonoBehaviour:
   displayNameText: {fileID: 1672418534}
   yinaPortrait: {fileID: 1672418537}
   dadPortrait: {fileID: 1672418535}
-  LoadLevel: Floor 3
+  LoadLevel: End_Credits
   choices: []
 --- !u!4 &2139648230
 Transform:
