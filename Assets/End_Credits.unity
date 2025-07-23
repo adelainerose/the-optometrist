@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 83319601}
   - component: {fileID: 83319604}
   - component: {fileID: 83319603}
-  - component: {fileID: 83319602}
   - component: {fileID: 83319605}
   m_Layer: 5
   m_Name: credits
@@ -158,33 +157,6 @@ RectTransform:
   m_AnchoredPosition: {x: 296, y: 60}
   m_SizeDelta: {x: 1414.1401, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!50 &83319602
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 83319600}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &83319603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,11 +177,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\rCredits\n\n  \n\n\n\n\n\n\r\nJay Nguyin\r\n\r\nMusic composer\r\nAnimator\r\nCharacter
+  m_text: "\rCredits\n\n  \n\n\n\n\n\n\r\nJay Nguyen\r\n\r\nMusic composer\r\nAnimator\r\nCharacter
     artist\n\n\n\r\n\r\nTesla McCullough\r\n\r\nSound designer\r\nEnvironmental artist\r\nLevel
-    designer\n\n\n\r\n\r\nNicole Lent\r\n\r\nLevel designer\r\nLead programmer\n\n\n\r\n\r\n\r\n\r\nLainey
-    Leslie\r\n\r\nProject management \r\nCounselor\n\n\n\n\n\n\n\nSpecial thanks
-    to GMG!\r\n"
+    designer\n\n\n\r\n\r\nNicole Lent\r\n\r\nLevel designer\r\nLead programmer\n\r\n\n\r\n\r\nLainey
+    Leslie\r\n\r\nProject manager \r\nCounselor\n\n\n\n\n\n\n\nSpecial thanks to
+    GMG!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee20d5cf6ab19b547979ec05ddc02bc9, type: 2}
   m_sharedMaterial: {fileID: -7011389476815478899, guid: ee20d5cf6ab19b547979ec05ddc02bc9, type: 2}
@@ -297,12 +269,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 83319600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8f0bfabf363d4ec5993fbd4f9908ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 30ba08015d981b64891b989bd4ae6257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody2D: {fileID: 0}
-  direction: {x: 0, y: 5}
-  relativeToRotation: 1
+  speed: 150
 --- !u!1 &347263828
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,7 +871,7 @@ MonoBehaviour:
   happenOnlyOnce: 0
   filterByTag: 0
   filterTag: Player
-  initialDelay: 24
+  initialDelay: 32
   frequency: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
