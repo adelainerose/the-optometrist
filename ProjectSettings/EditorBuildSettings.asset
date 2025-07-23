@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Test Scenes/DialogueTest.unity
     guid: 94f0adc0e2412ed4faad9d527d398433
   - enabled: 1
+    path: Assets/GMG Scripts/title screen.unity
+    guid: a2a625ce5a6122341bf4f2d8158dd347
+  - enabled: 1
     path: Assets/Lobby.unity
     guid: 516962be56fc20b4ba28943ab56c1271
   - enabled: 1
