@@ -1,2 +1,2 @@
-I shouldn't wander around too much... #speaker: Yina #portrait: Yina_portrait
-Maybe later. #speaker: Yina #portrait: Yina_portrait
+Why would an optometry office have a basement? #speaker: Yina #portrait: Yina_portrait
+Eh, it doesn't matter anyway, it's probably unimportant. #speaker: Yina #portrait: Yina_portrait
