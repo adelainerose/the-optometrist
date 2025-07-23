@@ -4,10 +4,13 @@ public class AnimationHandler : MonoBehaviour
 {
     Animator animator;
     [SerializeField] private AudioSource walkingAudio;
+    [SerializeField] private bool startFacingDown;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        if (startFacingDown)
+            animator.Play("Idle_down");
     }
 
     void Update()

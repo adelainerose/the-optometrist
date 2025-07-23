@@ -5563,6 +5563,10 @@ PrefabInstance:
       propertyPath: walkingAudio
       value: 
       objectReference: {fileID: 40908250}
+    - target: {fileID: 7702092227472946536, guid: 1e2e08a3efeb0b048bfb2d260f752953, type: 3}
+      propertyPath: startFacingDown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7978589746957691251, guid: 1e2e08a3efeb0b048bfb2d260f752953, type: 3}
       propertyPath: m_SortingOrder
       value: 15
