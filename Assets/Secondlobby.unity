@@ -4583,7 +4583,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0041297674, y: -0.042770058}
+  m_Offset: {x: -0.0041297674, y: 0.008831024}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4593,7 +4593,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.7137979, y: 1.0855398}
+  m_Size: {x: 0.7137979, y: 0.98233795}
   m_EdgeRadius: 0
 --- !u!114 &445144682
 MonoBehaviour:
@@ -6388,7 +6388,7 @@ MonoBehaviour:
     DissipationMode: 2
     DissipationDistance: 100
     PropagationSpeed: 343
-  DefaultVelocity: {x: 3, y: 3, z: 0}
+  DefaultVelocity: {x: 1, y: 1, z: 0}
 --- !u!82 &798767072 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 4703599770724522582, guid: cf30287c8e573244d80e9c6dedf7c7ca, type: 3}
@@ -6873,7 +6873,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.007906213, y: -0.21303782}
+  m_Offset: {x: -0.004140444, y: -0.09662718}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6883,7 +6883,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.45633963, y: 0.53445655}
+  m_Size: {x: 0.24169223, y: 0.3016352}
   m_EdgeRadius: 0
 --- !u!212 &901676961
 SpriteRenderer:
@@ -6949,8 +6949,8 @@ Transform:
   m_GameObject: {fileID: 901676958}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3746, y: -10.1552, z: 0}
-  m_LocalScale: {x: 2.667532, y: 2.7073941, z: 1}
+  m_LocalPosition: {x: -2.27, y: -10.245, z: 0}
+  m_LocalScale: {x: 4.7580767, y: 4.829179, z: 1.7837}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -12862,7 +12862,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.004
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
