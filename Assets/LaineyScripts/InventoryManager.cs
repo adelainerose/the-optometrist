@@ -27,4 +27,10 @@ public class InventoryManager : MonoBehaviour
         items.Add(itemKey);
         Debug.Log($"Added '{itemKey}' to inventory. Total items: {items.Count}");
     }
+
+    public void ClearItems()
+    {
+        items.Clear();
+        Debug.Log("cleared!");
+    }
 }
