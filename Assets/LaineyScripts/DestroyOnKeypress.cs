@@ -3,6 +3,8 @@ using UnityEngine;
 public class DestroyOnKeypress : MonoBehaviour
 {
     private bool playerInRange = false;
+    [SerializeField] private AudioSource audio;
+    [SerializeField] private bool playAudio = false;
 
     private void Update()
     {
@@ -10,6 +12,8 @@ public class DestroyOnKeypress : MonoBehaviour
         {
             if (Input.GetKeyDown("e"))
             {
+                if (playAudio)
+                    audio.Play();
                 playerInRange = false;
                 Destroy(gameObject);
             }
