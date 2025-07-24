@@ -222,33 +222,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 5454320422360251504, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6387362839811860080, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
-      propertyPath: m_Color.a
-      value: 0.36862746
-      objectReference: {fileID: 0}
-    - target: {fileID: 6387362839811860080, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
-      propertyPath: m_Color.b
-      value: 0.9811321
-      objectReference: {fileID: 0}
-    - target: {fileID: 6387362839811860080, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
-      propertyPath: m_Color.g
-      value: 0.79767907
-      objectReference: {fileID: 0}
-    - target: {fileID: 6387362839811860080, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
-      propertyPath: m_Color.r
-      value: 0.39800632
-      objectReference: {fileID: 0}
     - target: {fileID: 6387362839811860080, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7436509374719633930, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8673185699005519851, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
       propertyPath: m_Pivot.x

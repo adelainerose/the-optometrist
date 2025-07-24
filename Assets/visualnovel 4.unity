@@ -265,10 +265,6 @@ PrefabInstance:
       value: Dialogue Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6387362839811860080, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 406510855664621557, guid: 7127deb344457914e9abfa50775b15aa, type: 3}
-    - target: {fileID: 6387362839811860080, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}

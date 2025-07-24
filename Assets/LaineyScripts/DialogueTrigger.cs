@@ -15,7 +15,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (playOnStart)
         {
-            StartDialogue();
+            StartDialogueNextFrame();
         }
     }
 
@@ -47,6 +47,12 @@ public class DialogueTrigger : MonoBehaviour
 
     public void StartDialogue()
     {
+        DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
+    }
+
+    IEnumerator StartDialogueNextFrame()
+    {
+        yield return null;
         DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
     }
 
