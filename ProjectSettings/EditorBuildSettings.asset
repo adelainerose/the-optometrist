@@ -48,6 +48,9 @@ EditorBuildSettings:
     path: Assets/visualnovel 4.unity
     guid: 37fb52ee63e8d69459b3a4e5d920b9e7
   - enabled: 1
+    path: Assets/Ending_Animation.unity
+    guid: 7854f94fa2b91b3409ebd5af88df8615
+  - enabled: 1
     path: Assets/End_Credits.unity
     guid: 0c653ee1ea7412e40bf7e535d94ec385
   m_configObjects:
