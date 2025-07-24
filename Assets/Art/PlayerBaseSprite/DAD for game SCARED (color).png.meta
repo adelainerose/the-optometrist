@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7127deb344457914e9abfa50775b15aa
+guid: 092d454c1b2f48a439c91770dd3ef579
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 406510855664621557
-    second: Dad_monsterpfp_0
+      213: 175174255858190465
+    second: DAD for game SCARED (color)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dad_monsterpfp_0
+      name: DAD for game SCARED (color)_0
       rect:
         serializedVersion: 2
-        x: 243
-        y: 159
-        width: 537
-        height: 717
+        x: 252
+        y: 232
+        width: 555
+        height: 663
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f7da3d287734a500800000000000000
-      internalID: 406510855664621557
+      spriteID: 188883ebe085e6200800000000000000
+      internalID: 175174255858190465
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dad_monsterpfp_0: 406510855664621557
+      DAD for game SCARED (color)_0: 175174255858190465
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
