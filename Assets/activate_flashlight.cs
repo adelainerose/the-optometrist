@@ -9,7 +9,7 @@ public class activate_flashlight : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        flashlight.SetActive(false);
+
     }
 
     // Update is called once per frame
