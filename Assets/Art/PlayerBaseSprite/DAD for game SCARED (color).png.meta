@@ -103,10 +103,10 @@ TextureImporter:
       name: DAD for game SCARED (color)_0
       rect:
         serializedVersion: 2
-        x: 252
-        y: 232
-        width: 555
-        height: 663
+        x: 253
+        y: 411
+        width: 553
+        height: 483
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 14eca8f71316cc948bf729a57abe5db8
     internalID: 0
     vertices: []
     indices: 

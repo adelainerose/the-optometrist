@@ -344,16 +344,40 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1602045417102294953, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2907489331190631552, guid: e564524b992059b43bdfb151599da0a4, type: 3}
+    - target: {fileID: 1602045417102294953, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4703307421091827033, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
       propertyPath: m_Name
       value: Dialogue Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4859974312687383300, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 248.7288
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859974312687383300, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 246.8069
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859974312687383300, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -411.187
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859974312687383300, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 289.50003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387362839811860080, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 175174255858190465, guid: 092d454c1b2f48a439c91770dd3ef579, type: 3}
     - target: {fileID: 6387362839811860080, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8673185699005519851, guid: 5683d1c81eb4d9b41a085b891c30ed8d, type: 3}
       propertyPath: m_Pivot.x
@@ -446,7 +470,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1653928370}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -468,7 +492,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1653928370}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
